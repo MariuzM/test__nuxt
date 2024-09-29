@@ -1,3 +1,7 @@
+<script setup lang="ts">
+console.log('Layout /')
+</script>
+
 <template>
 	<div class="bg-blue-200">
 		Main Layout

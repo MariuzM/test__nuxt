@@ -1,5 +1,5 @@
 <script setup lang="ts">
-console.log('admin about page render')
+console.log('Page /admin/about')
 </script>
 
 <template>
