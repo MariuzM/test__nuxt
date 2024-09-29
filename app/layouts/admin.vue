@@ -1,3 +1,7 @@
+<script setup lang="ts">
+console.log('Layout /admin')
+</script>
+
 <template>
 	<div class="bg-red-200">
 		Admin Layout
