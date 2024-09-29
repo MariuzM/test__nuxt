@@ -6,8 +6,12 @@ export default defineNuxtConfig({
 	modules: ['@nuxtjs/tailwindcss'],
 
 	routeRules: {
-		'/': { prerender: true },
-		'/admin/**': { appMiddleware: ['layout'] },
+		'/': {
+			prerender: true,
+		},
+		'/admin/**': {
+			appMiddleware: ['layout'],
+		},
 	},
 
 	future: {
