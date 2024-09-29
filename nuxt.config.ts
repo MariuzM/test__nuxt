@@ -9,8 +9,8 @@ export default defineNuxtConfig({
 		'/': {
 			prerender: true,
 		},
-		'/admin/**': {
-			appMiddleware: ['layout'],
+		'/**': {
+			prerender: true,
 		},
 	},
 
