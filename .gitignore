@@ -1,0 +1,15 @@
+!.env.example
+*.log
+.DS_Store
+.cache
+.data
+.env
+.env.*
+.fleet
+.idea
+.nitro
+.nuxt
+.output
+dist
+logs
+node_modules
