@@ -6,12 +6,12 @@ export default defineNuxtConfig({
 	modules: ['@nuxtjs/tailwindcss'],
 
 	routeRules: {
-		'/': {
-			prerender: true,
-		},
-		'/**': {
-			prerender: true,
-		},
+		// '/': {
+		// 	prerender: true,
+		// },
+		// '/**': {
+		// 	prerender: true,
+		// },
 	},
 
 	future: {
