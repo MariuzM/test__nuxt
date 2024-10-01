@@ -1,4 +1,8 @@
+<script setup lang="ts">
+import { NButton } from 'naive-ui/lib/button'
+</script>
+
 <template>
 	<div>Home Page</div>
-	<n-button>Default</n-button>
+	<NButton>Default</NButton>
 </template>
