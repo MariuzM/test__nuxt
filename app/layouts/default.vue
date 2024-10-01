@@ -8,12 +8,10 @@ console.log('Layout /')
 		<nav class="bg-green-200">
 			Nav Links:
 			<div class="flex gap-4">
-				<NuxtLink class="text-blue-700" active-class="text-red-600" to="/">Home</NuxtLink>
-				<NuxtLink class="text-blue-700" active-class="text-red-600" to="/about">About</NuxtLink>
-				<NuxtLink class="text-red-600" active-class="text-red-600" to="/admin">Admin/Home</NuxtLink>
-				<NuxtLink class="text-red-600" active-class="text-red-600" to="/admin/about"
-					>Admin/About</NuxtLink
-				>
+				<NuxtLink active-class="bg-slate-400" to="/">Home</NuxtLink>
+				<NuxtLink active-class="bg-slate-400" to="/about">About</NuxtLink>
+				<NuxtLink active-class="bg-slate-400" to="/admin">Admin/Home</NuxtLink>
+				<NuxtLink active-class="bg-slate-400" to="/admin/about">Admin/About</NuxtLink>
 			</div>
 		</nav>
 		<slot />
